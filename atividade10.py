@@ -1,7 +1,8 @@
 # Matheus Villar n° 21 
 # Miguel Borges n° 22 
 # Pedro Zocatelli n° 27 
-
+import matplotlib.pyplot as plt
+import numpy as np
 def temp_ordem (dia1, dia2, dia3, dia4, dia5, dia6, dia7 ):
     lista = {dia1, dia2, dia3, dia4, dia5, dia6, dia7}
     numerosordenados = sorted(lista)
