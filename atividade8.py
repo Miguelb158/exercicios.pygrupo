@@ -132,7 +132,7 @@ with open('arquivo.csv', 'r') as file:
 
     media_Dezembro = media(dias_Dezembro,somar_Dezembro)
 
-    print (f"A temperatura media de cada mês durante esse ano é: \n =================================================\n Janeiro: {media_Janeiro} \n fevereiro: {media_fevereiro}\n março: {media_Março}\n Abril: {media_Abril} \n Maio: {media_Maio}\n Junho: {media_Junho} \n Julho: {media_Julho}\n Agosto: {media_Agosto}\n Setembro: {media_Setembro} \n Outubro: {media_Outubro}\n Novembro: {media_Novembro}\n Dezembro: {media_Dezembro} ")
+    print (f"A temperatura média de cada mês durante esse ano é: \n =================================================\n Janeiro: {media_Janeiro} \n fevereiro: {media_fevereiro}\n março: {media_Março}\n Abril: {media_Abril} \n Maio: {media_Maio}\n Junho: {media_Junho} \n Julho: {media_Julho}\n Agosto: {media_Agosto}\n Setembro: {media_Setembro} \n Outubro: {media_Outubro}\n Novembro: {media_Novembro}\n Dezembro: {media_Dezembro} ")
 
 
  
