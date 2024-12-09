@@ -48,20 +48,19 @@ with open('arquivo.csv', 'r') as file:
             somar_fevereiro += float(n[2])
             dias_fevereiro += 1
 
-             # ========================================
+            # ========================================
 
         elif n[0] == "Março":
-            print (n)
             somar_Março += float(n[2])
             dias_Março += 1
 
-             # ========================================
+            # ========================================
 
         elif n[0] == "Abril":
             somar_Abril += float(n[2])
             dias_Abril += 1
 
-             # ========================================
+            # ========================================
              
         elif n[0] == "Maio":
             somar_Maio += float(n[2])
@@ -73,37 +72,37 @@ with open('arquivo.csv', 'r') as file:
             somar_Junho += float(n[2])
             dias_Junho += 1
 
-             # ========================================
+            # ========================================
 
         elif n[0] == "Julho":
             somar_Julho += float(n[2])
             dias_Julho += 1
 
-             # ========================================
+            # ========================================
 
         elif n[0] == "Agosto":
             somar_Agosto += float(n[2])
             dias_Agosto += 1
 
-             # ========================================
+            # ========================================
              
         elif n[0] == "Setembro":
             somar_Setembro += float(n[2])
             dias_Setembro += 1
 
-                         # ========================================
+            # ========================================
 
         elif n[0] == "Outubro":
             somar_Outubro += float(n[2])
             dias_Outubro += 1
 
-             # ========================================
+            # ========================================
 
         elif n[0] == "Novembro":
             somar_Novembro += float(n[2])
             dias_Novembro += 1
 
-             # ========================================
+            # ========================================
              
         elif n[0] == "Dezembro":
             somar_Dezembro += float(n[2])
@@ -133,7 +132,7 @@ with open('arquivo.csv', 'r') as file:
 
     media_Dezembro = media(dias_Dezembro,somar_Dezembro)
 
-    print (f"A temperatura media de cada mees durante esse ano é: \n =======================\n Janeiro: {media_Janeiro} \n fevereiro: {media_fevereiro}\n Março: {media_Março}\n Abril: {media_Abril} \n Maio: {media_Maio}\n Junho: {media_Junho} \n Julho: {media_Julho}\n Agosto: {media_Agosto}\n Setembro: {media_Setembro} \n Outubro: {media_Outubro}\n Novembro: {media_Novembro}\n Dezembro: {media_Dezembro} ")
+    print (f"A temperatura media de cada mês durante esse ano é: \n =================================================\n Janeiro: {media_Janeiro} \n fevereiro: {media_fevereiro}\n março: {media_Março}\n Abril: {media_Abril} \n Maio: {media_Maio}\n Junho: {media_Junho} \n Julho: {media_Julho}\n Agosto: {media_Agosto}\n Setembro: {media_Setembro} \n Outubro: {media_Outubro}\n Novembro: {media_Novembro}\n Dezembro: {media_Dezembro} ")
 
 
  
