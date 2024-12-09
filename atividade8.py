@@ -1,6 +1,6 @@
 # Matheus Villar n° 21 
 # Miguel Borges n° 22 
-# Pedro Zocatelli n° 27 
+# Pedro Zocatelli n° 27
 import csv
 def somar_elementos (lista):
     somar = 0 
@@ -130,7 +130,6 @@ with open('arquivo.csv', 'r') as file:
         elif n[0] == "Abril":
             Abril.append(float(n[2]))
             somar_Abril =(somar_elementos(Abril))
-            print (somar_Abril)
             dias_Abril = len(Abril)
 
              # ========================================
@@ -138,7 +137,6 @@ with open('arquivo.csv', 'r') as file:
         elif n[0] == "Maio":
             Maio.append(float(n[2]))
             somar_Maio =(somar_elementos(Maio))
-            print (somar_Maio)
             dias_Maio = len(Maio)
 
             # ========================================
@@ -146,7 +144,6 @@ with open('arquivo.csv', 'r') as file:
         elif n[0] == "Junho":
             Junho.append(float(n[2]))
             somar_Junho =(somar_elementos(Junho))
-            print (somar_Junho)
             dias_Junho = len(Junho)
 
              # ========================================
@@ -154,7 +151,6 @@ with open('arquivo.csv', 'r') as file:
         elif n[0] == "Julho":
             Julho.append(float(n[2]))
             somar_Julho =(somar_elementos(Julho))
-            print (somar_Julho)
             dias_Julho = len(Julho)
 
              # ========================================
@@ -162,7 +158,6 @@ with open('arquivo.csv', 'r') as file:
         elif n[0] == "Agosto":
             Agosto.append(float(n[2]))
             somar_Agosto =(somar_elementos(Agosto))
-            print (somar_Agosto)
             dias_Agosto = len(Agosto)
 
              # ========================================
@@ -170,7 +165,6 @@ with open('arquivo.csv', 'r') as file:
         elif n[0] == "Setembro":
             Setembro.append(float(n[2]))
             somar_Setembro =(somar_elementos(Setembro))
-            print (somar_Setembro)
             dias_Setembro = len(Setembro)
 
                          # ========================================
@@ -178,7 +172,6 @@ with open('arquivo.csv', 'r') as file:
         elif n[0] == "Outubro":
             Outubro.append(float(n[2]))
             somar_Outubro =(somar_elementos(Outubro))
-            print (somar_Outubro)
             dias_Outubro = len(Outubro)
 
              # ========================================
@@ -186,7 +179,6 @@ with open('arquivo.csv', 'r') as file:
         elif n[0] == "Novembro":
             Novembro.append(float(n[2]))
             somar_Novembro =(somar_elementos(Novembro))
-            print (somar_Novembro)
             dias_Novembro = len(Novembro)
 
              # ========================================
@@ -194,7 +186,6 @@ with open('arquivo.csv', 'r') as file:
         elif n[0] == "Dezembro":
             Dezembro.append(float(n[2]))
             somar_Dezembro =(somar_elementos(Dezembro))
-            print (somar_Dezembro)
             dias_Dezembro = len(Dezembro)
 
     print (f"A temperatura media de cada mees durante esse ano é: /n========= /n Janeiro: {media_Janeiro} /n fevereiro: {media_fevereiro}/n Março: {media_Março} Abril: {media_Abril} /n Maio: {media_Maio}/n Junho: {media_Junho} /n Julho: {media_Julho}/n Agosto: {media_Agosto} Setembro: {media_Setembro} /n Outubro: {media_Outubro}/n Novembro: {media_Novembro}/n Dezembro: {media_Dezembro} ")
